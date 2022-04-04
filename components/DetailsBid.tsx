@@ -3,7 +3,6 @@ import { COLORS, FONTS, SIZES } from "../constants";
 import { EthPrice } from "./SubInfo";
 
 export const DetailsBid = ({ bid }: any) => {
-  console.log(bid);
   return (
     <View
       style={{

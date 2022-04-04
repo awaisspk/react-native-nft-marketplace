@@ -32,9 +32,6 @@ const DetailsNavigation = ({ data, navigation }: any) => {
 
 const Details = ({ route, navigation }: any) => {
   const { data } = route.params;
-  console.log("---------------------------------------------------------");
-  console.log(data);
-  console.log("---------------------------------------------------------");
   return (
     <SafeAreaView
       style={{
@@ -82,7 +79,7 @@ const Details = ({ route, navigation }: any) => {
                   style={{
                     fontSize: SIZES.font,
                     fontFamily: FONTS.semiBold,
-                    color : COLORS.primary
+                    color: COLORS.primary,
                   }}
                 >
                   Current bid
